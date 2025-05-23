@@ -144,7 +144,7 @@ async function createGroupDM(token, message, image = null, targetUserIds = null)
 
   let count = 0;
   while (!stopFlag) {
-    const groupName = 'spam-by-ozeu-' + getRandomEmojis(10);
+    const groupName = 'spam-by-aabot-' + getRandomEmojis(10);
     try {
       const createRes = await fetch("https://discord.com/api/v9/users/@me/channels", {
         method: "POST",
